@@ -402,26 +402,6 @@ FROM
 GROUP BY 
     Product_line;
 
-    
-    
-    
-
-
-    
-    
-
-
-
--
-	Customer_type, 
-    Product_line,
-    SUM(Total) AS TotalSales, 
-    AVG(Quantity) AS AverageQuantity
-FROM
-	supermarket_sales.sales_data
-GROUP BY
-	Customer_type, Product_line
-ORDER BY
 	
     
 
